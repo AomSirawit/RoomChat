@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.title{
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin-top: 3vh;
+}
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width:400px;
+    height: 200px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.card-header{
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);
+    margin-top: 20px;
+}
+.card-body{
+    margin-top: 3vh;
+}
+.input-group{
+    padding: 10px;
+}
+.input-group input{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: hsl(212, 45%, 89%);
+    border: none;
+}
+.input-group input:hover{
+    background-color: hsl(220, 15%, 55%);
+    transition: .3s;
+    color: #fff;
+}
+.input{
+    padding: 10px;
+}
+.userBtn{
+    width: 80px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: hsl(202, 49%, 66%);
+    color: #fff;
+}
+.userBtn:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+.sendBtn{
+    width: 80px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: hsl(134, 27%, 56%);
+    color: #fff;
+}
+.sendBtn:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+.message-box{
+    height: 500px;
+    width: 500px;
+}
+.message-box ul{
+    height: 300px;
+    width: 500px;
+    background-color:hsl(0, 0%, 100%);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin-top: 30px;
+    list-style-type: none;
+}
+.card-footer{
+    background-color:hsl(0, 0%, 100%);
+    border: 1px solid  hsl(212, 45%, 89%);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.info{
+    color: hsl(218, 44%, 22%);
+}

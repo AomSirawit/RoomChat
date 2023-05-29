@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Chat App</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Chat Room</h1>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">Your name...</div>
+            <div class="card-body">
+                <div class="input-group">
+                    <input type="text" class="form" id="username" placeholder="Change your username...">
+                    <div class="input">
+                        <button class="userBtn" id="usernameBtn">Change</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+    <div class="message-box">
+        <ul class="list-group" id="message-list"></ul>
+        <div class="info"></div>
+        <div class="card-footer">
+            <div class="input-group">
+                <input type="text" class="form" id="message" placeholder="send new message...">
+                <div class="input-group">
+                    <button id ="messageBtn" class="sendBtn"  type="button">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.0/socket.io.min.js"></script>
+    <script src="/js/chatroom.js"></script>
+</body>
+</html>
